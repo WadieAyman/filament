@@ -29,3 +29,4 @@ Route::get('/infolists/entries', EntriesDemo::class);
 Route::get('/infolists/layout', InfolistsLayoutDemo::class);
 Route::get('/notifications', NotificationsDemo::class);
 Route::get('/tables', TablesDemo::class);
+Route::view('/','layouts.app');
